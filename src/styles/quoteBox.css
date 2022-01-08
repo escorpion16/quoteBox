@@ -1,0 +1,45 @@
+.cardQuote {
+    width: 45%;
+    height: 25%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.cardQuote .phraseContainer {
+    display: flex;
+    align-items: center;
+}
+
+.phraseContainer .phrase {
+    padding-left: 1rem;
+}
+
+.cardQuote .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cardQuote .btnChangeQuote {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.cardQuote .btnChangeQuote button {
+    border-radius: 50%;
+    border: none;
+}
+
+
+.btnChangeQuote .fa-arrow-circle-right {
+    font-size: 3rem;
+}
+
+.cardQuote .fa-quote-left {
+    font-size: 2.5rem;
+}
